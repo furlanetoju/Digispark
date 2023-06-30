@@ -7,6 +7,13 @@
 https://raw.githubusercontent.com/digistump/arduino-boards-index/master/package_digistump_index.json
 ```
 
+**Link para baixar os drivers**
+
+```
+https://github.com/digistump/DigistumpArduino/releases/download/1.6.7/Digistump.Drivers.zip
+```
+
+
 **Para escrevermos na ide usamos:**
 
 ```
