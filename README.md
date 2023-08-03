@@ -41,3 +41,12 @@ DigiKeyboardPtBr.sendKeyStroke(KEY_ENTER);
 <img src='https://i.imgur.com/U01ltn6.png' width="450">
 
 **Por esse motivo usei a palavra "KEY_ENTER".**
+
+**Exemplo para abrir o notepad**
+```
+  DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT); 
+  DigiKeyboard.delay(500); 
+  DigiKeyboard.println("notepad");
+  DigiKeyboard.delay(500); 
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+```
