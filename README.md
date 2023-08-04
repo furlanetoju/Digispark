@@ -50,3 +50,41 @@ DigiKeyboardPtBr.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500); 
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 ```
+--------------------------------
+<h1>Exemplo de códigos</h1>
+
+Como trocar o papel de parede do windows
+```
+#include "DigiKeyboardPtBr.h"
+#include "DigiKeyboard.h"
+void setup() {
+  //empty
+}
+void loop() {
+  DigiKeyboard.sendKeyStroke(0);
+  DigiKeyboard.sendKeyStroke(KEY_D, MOD_GUI_LEFT);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.print("powershell");
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboardPtBr.print("$client = new-object System.Net.WebClient");
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboardPtBr.print("$client.DownloadFile(\"https://w0.peakpx.com/wallpaper/29/611/HD-wallpaper-star-wars-warrior-lightsaber-sith-star-wars.jpg\" , \"doge.jpg\")");
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboardPtBr.print("reg add \"HKCU\\Control Panel\\Desktop\" /v WallPaper /d \"%USERPROFILE%\\doge.jpg\" /f");
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboardPtBr.print("RUNDLL32.EXE USER32.DLL,UpdatePerUserSystemParameters ,1 ,True");
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.print("exit");
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  for(;;){ /*empty*/ }
+}
+```
+**Precisamos passar o link da imagem na linha $client.DownloadFile, Depois só dar reboot e o wallpaper vai estar alterado**
