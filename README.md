@@ -5,6 +5,11 @@
 https://www.arduino.cc/en/software
 ```
 
+**Download IDE direto pelo MEGA**
+```
+https://mega.nz/file/I4t0AZ6S#4Wqt9__Ego76koQGS8CWSz56VJhM6eQUZ4DrOrJaSQE
+```
+
 **Primeiro passo é importamos o Digispark para dentro da IDE**
 
 ```
