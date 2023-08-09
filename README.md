@@ -26,7 +26,7 @@ https://github.com/digistump/DigistumpArduino/releases/download/1.6.7/Digistump.
 **Para escrevermos na ide usamos:**
 
 ```
- DigiKeyboardPtBr.println("Olá Mundo");
+ DigiKeyboard.println("Olá Mundo");
 ```
 
 **Para usarmos um delay em cada comando, usamos:**
