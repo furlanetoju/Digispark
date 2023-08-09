@@ -60,6 +60,18 @@ DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 ```
 --------------------------------
+<h1>Como adicionar o layout em portugues</h1>
+
+**Primeiro passo vamos acessar esse link abaixo**
+```
+https://raw.githubusercontent.com/Al0nnso/PendriveHacker-Scripts/main/DigiKeyboardPtBr.h
+```
+Observem que a extenção é **.h** precisamos salvar com essa extensão.
+
+
+
+
+--------------------------------
 <h1>Exemplo de códigos</h1>
 
 Como trocar o papel de parede do windows
