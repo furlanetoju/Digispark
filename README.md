@@ -31,19 +31,19 @@ https://github.com/digistump/DigistumpArduino/releases/download/1.6.7/Digistump.
 
 **Para usarmos um delay em cada comando, usamos:**
 ```
-DigiKeyboardPtBr.delay(1000);
+DigiKeyboard.delay(1000);
 ```
 **Ex:**
 ```
 void loop() { 
-DigiKeyboardPtBr.println("Olá Mundo");  
-DigiKeyboardPtBr.delay(1000); 
-DigiKeyboardPtBr.println("HelloWord"); 
-DigiKeyboardPtBr.delay(1000);
+DigiKeyboard.println("Ola Mundo");  
+DigiKeyboard.delay(1000); 
+DigiKeyboard.println("HelloWord"); 
+DigiKeyboard.delay(1000);
 ```
 **Para digitar teclas, como enter por exemplo:**
 ```
-DigiKeyboardPtBr.sendKeyStroke(KEY_ENTER);
+DigiKeyboard.sendKeyStroke(KEY_ENTER);
 ```
 **Quando for enviar teclas especiais como enter, ctrl, alt, temos uma tabela para as respectivas teclas:**
 
