@@ -66,9 +66,10 @@ DigiKeyboard.sendKeyStroke(KEY_ENTER);
 ```
 https://raw.githubusercontent.com/Al0nnso/PendriveHacker-Scripts/main/DigiKeyboardPtBr.h
 ```
+Para salvar, vamos clicar em qualquer parte do site com o botão direito, salvar como
+<img src='20230809231259.png'>
+
 Observem que a extenção é **.h** precisamos salvar com essa extensão.
-
-
 
 
 --------------------------------
