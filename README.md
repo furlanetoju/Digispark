@@ -66,11 +66,18 @@ DigiKeyboard.sendKeyStroke(KEY_ENTER);
 ```
 https://raw.githubusercontent.com/Al0nnso/PendriveHacker-Scripts/main/DigiKeyboardPtBr.h
 ```
-Para salvar, vamos clicar em qualquer parte do site com o botão direito, salvar como
-<img src='20230809231259.png'>
+**Para salvar, vamos clicar em qualquer parte do site com o botão direito, salvar como, conforme a imagem abaixo:**
 
-Observem que a extenção é **.h** precisamos salvar com essa extensão.
+<img src='20230809231259.png' width=70%>
 
+**Quando for salvar, mude o nome do arquivo para DigiKeyboardPtBr.h 
+"ATENÇÃO"> ANTES DE SALVAR EM QUALQUER LUGAR, VOCÊ PRECISA SALVAR NA MESMA PASTA QUE ESTA O SEU CÓDIGO DA IDE, se mesmo assim ficou duvidas. Acesse o vídeo no momento exato: https://youtu.be/PvnbvEsxAu4?t=102** 
+
+<img src='20230809231607.png' width=50%>
+
+**Depois de salvar, podemos conferir o caminho e validar se esta lá os dois arquivos**
+
+<img src='20230809231659.png' width=70%>
 
 --------------------------------
 <h1>Exemplo de códigos</h1>
